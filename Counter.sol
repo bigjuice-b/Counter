@@ -9,6 +9,9 @@ contract Counter {
     function incrementCounter2() public {
         count += 2000;
     }
+    function incrementCounter3() public {
+        count += 3000;
+    }
     function decrementCounter() public {
         count -= 1000;
     }
