@@ -15,6 +15,9 @@ contract Counter {
     function decrementCounter() public {
         count -= 1000;
     }
+    function decrementCounter2() public {
+        count -= 2000;
+    }
     function getCount() public view returns (int) {
         return count;
     }
