@@ -7,7 +7,7 @@ contract Counter {
         count += 1;
     }
     function incrementCounter2() public {
-        count += 20;
+        count += 2;
     }
     function incrementCounter3() public {
         count += 3000;
