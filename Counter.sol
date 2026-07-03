@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 contract Counter {
-    int private count = 39;
+    int private count = 40;
     function incrementCounter() public {
         count += 1;
     }
